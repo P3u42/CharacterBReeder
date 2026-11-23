@@ -1,0 +1,39 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/IGa_Ui/GameUi.uss?fileID=7433441132597879392&amp;guid=02eb0fabd06a6c042aa9e64b5de58531&amp;type=3#GameUi" />
+    <ui:VisualElement name="Root" style="flex-direction: row; flex-wrap: wrap; justify-content: space-around; align-items: center; width: 100%; height: 100%; padding: 20px;">
+        <ui:VisualElement name="CreatureBox_0" class="creature-box">
+            <ui:Label name="Label_0" text="Creature 1" class="creature-label" />
+            <ui:VisualElement name="Viewport_0" class="creature-viewport" />
+            <ui:Slider name="Slider_0" low-value="0" high-value="10" value="5" class="fitness-slider" />
+            <ui:Label name="SliderValue_0" text="5.0" class="slider-value" />
+        </ui:VisualElement>
+        <ui:VisualElement name="CreatureBox_1" class="creature-box">
+            <ui:Label name="Label_1" text="Creature 2" class="creature-label" />
+            <ui:VisualElement name="Viewport_1" class="creature-viewport" />
+            <ui:Slider name="Slider_1" low-value="0" high-value="10" value="5" class="fitness-slider" />
+            <ui:Label name="SliderValue_1" text="5.0" class="slider-value" />
+        </ui:VisualElement>
+        <ui:VisualElement name="CreatureBox_2" class="creature-box">
+            <ui:Label name="Label_2" text="Creature 3" class="creature-label" />
+            <ui:VisualElement name="Viewport_2" class="creature-viewport" />
+            <ui:Slider name="Slider_2" low-value="0" high-value="10" value="5" class="fitness-slider" />
+            <ui:Label name="SliderValue_2" text="5.0" class="slider-value" />
+        </ui:VisualElement>
+        <ui:VisualElement name="CreatureBox_3" class="creature-box">
+            <ui:Label name="Label_3" text="Creature 4" class="creature-label" />
+            <ui:VisualElement name="Viewport_3" class="creature-viewport" />
+            <ui:Slider name="Slider_3" low-value="0" high-value="10" value="5" class="fitness-slider" />
+            <ui:Label name="SliderValue_3" text="5.0" class="slider-value" />
+        </ui:VisualElement>
+        <ui:VisualElement name="CreatureBox_4" class="creature-box">
+            <ui:Label name="Label_4" text="Creature 5" class="creature-label" />
+            <ui:VisualElement name="Viewport_4" class="creature-viewport" />
+            <ui:Slider name="Slider_4" low-value="0" high-value="10" value="5" class="fitness-slider" />
+            <ui:Label name="SliderValue_4" text="5.0" class="slider-value" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Footer" style="width: 100%; align-items: center; margin-top: 20px;">
+            <ui:Label name="GenerationLabel" text="Generation 1" style="font-size: 18px; margin-bottom: 10px;" />
+            <ui:Button name="EvolveButton" text="Evolve Next Generation" class="evolve-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
