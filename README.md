@@ -1,6 +1,7 @@
 CharacterBReeder
 
 Interactive Genetic Algorithms for Procedural 2D Creature Generation
+<img width="800" height="422" alt="image" src="https://github.com/user-attachments/assets/867c094f-b401-4749-b681-4fa73b9297a0" />
 
 About the Project
 
